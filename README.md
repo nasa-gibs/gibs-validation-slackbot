@@ -26,8 +26,11 @@ arguments:
 
 Currently performs analysis on all VIIRS base layers for missing data and miscoloration. 
 
-### Helper Functions 
+### Helper Files 
 ```gibs_layer.py``` contains a GIBS layer class with several predefined GIBS layers as well as the XML formats for [TMS and Tiled WMS](http://www.gdal.org/frmt_wms.html) services to request layers from the GIBS API using a gdal driver.
+
 ```utils.py``` contains various helper functions for PyTorch and date manipulation.
+
 ```features.py``` contains functions to featurize the image using histogram of oriented gradients (HoG) and color histogram descriptors using hue values.
+
 ```download_data.py``` downloads a GIBS layer dataset. The script uses [```gdal_translate```](http://www.gdal.org/gdal_translate.html) to query the [GIBS API](https://wiki.earthdata.nasa.gov/display/GIBS/GIBS+API+for+Developers#GIBSAPIforDevelopers-ServiceEndpointsandGetCapabilities). For our current purposes, we only use it to pull down a single image.
