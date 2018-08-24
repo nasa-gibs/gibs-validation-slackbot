@@ -1,5 +1,7 @@
 # GIBS Validation Slack Bot
-Slack Bot for validating data in Global Imagery Browse Services ([GIBS](https://earthdata.nasa.gov/about/science-system-description/eosdis-components/global-imagery-browse-services-gibs)) Earth Satellite imagery. This Slack Bot is built using BotKit (HowdyAI) and Slacks Real-Time Messaging (RTM) Service. 
+Slack Bot for validating data in Global Imagery Browse Services ([GIBS](https://earthdata.nasa.gov/about/science-system-description/eosdis-components/global-imagery-browse-services-gibs)) Earth Satellite imagery. 
+
+This Slack Bot is built using BotKit (HowdyAI) on Node.js and uses Slacks Real-Time Messaging (RTM) Service. 
 
 ## Dependencies
 Run ```npm install``` to install the various dependencies for the Node.js project.
