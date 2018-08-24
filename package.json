@@ -1,0 +1,33 @@
+{
+  "name": "jeff-bot",
+  "version": "1.0.0",
+  "description": "The awesomest bot evar.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddxue/easy-peasy-bot.git"
+  },
+  "keywords": [
+    "slack",
+    "bot"
+  ],
+  "author": "D.E. Goodman-Wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddxue/easy-peasy-bot.git/issues"
+  },
+  "homepage": "https://github.com/ddxue/easy-peasy-bot.git#readme",
+  "engines": {
+    "node": "5.1.1"
+  },
+  "dependencies": {
+    "botkit": "0.2.2",
+    "botkit-storage-mongo": "^1.0.2",
+    "mongodb": "^1.4.39",
+    "node-schedule": "^1.3.0"
+  }
+}
